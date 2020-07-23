@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>rw.aos</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.7-SNAPSHOT</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -50,6 +50,6 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/IgnaceHakizimana/sfg-pet-clinic.git</developerConnection>
-      <tag>sfg-pet-clinic-0.0.6</tag>
+      <tag>sfg-pet-clinic-0.0.5</tag>
   </scm>
 </project>
