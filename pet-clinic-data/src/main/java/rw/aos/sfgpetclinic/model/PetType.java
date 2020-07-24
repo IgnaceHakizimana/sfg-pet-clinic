@@ -4,7 +4,7 @@ package rw.aos.sfgpetclinic.model;
  * @author : Ignace
  * @date : Mon, 7/13/2020
  **/
-public class PetType {
+public class PetType extends BaseEntity {
     private String name;
 
     public String getName() {
