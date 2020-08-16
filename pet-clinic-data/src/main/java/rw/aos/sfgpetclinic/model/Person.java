@@ -1,9 +1,12 @@
 package rw.aos.sfgpetclinic.model;
 
+import javax.persistence.MappedSuperclass;
+
 /**
  * @author : Ignace
  * @date : Mon, 7/13/2020
  **/
+@MappedSuperclass
 public class Person extends BaseEntity{
     public String firstName;
     public String lastName;

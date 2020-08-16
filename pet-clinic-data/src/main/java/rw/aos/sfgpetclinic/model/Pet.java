@@ -1,15 +1,28 @@
 package rw.aos.sfgpetclinic.model;
 
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 import java.time.LocalDate;
 
 /**
  * @author : Ignace
  * @date : Mon, 7/13/2020
  **/
+@Entity
+@Table(name ="pets")
 public class Pet extends BaseEntity {
     private String name;
+
+    @ManyToOne
+    @JoinColumn(name = "type_id")
     private PetType petType;
+
+    @ManyToOne
+    @JoinColumn(name = "owner_id")
     private Owner owner;
+
     private LocalDate birthDate;
 
     public String getName() {
