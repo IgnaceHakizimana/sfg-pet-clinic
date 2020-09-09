@@ -75,7 +75,7 @@ class OwnerMapServiceTest {
     void findByLastName() {
         Owner smith = ownerMapService.findByLastName(lastName);
 
-        assertNotNull(smith);
+       assertNotNull(smith);
 
         assertEquals(ownerId, smith.getId());
 
